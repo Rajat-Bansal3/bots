@@ -43,7 +43,7 @@ To use the bots in this repository, follow these steps:
     echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
     sudo apt-get update && sudo apt-get install nodejs -y
 
-    Then just link your folders like for me it was like ln usr/bin/node /snap/bin/node
+    Then just link your folders like for me it was like `ln usr/bin/node /snap/bin/node`
     ```
 
 3. **Choose the bot**:
