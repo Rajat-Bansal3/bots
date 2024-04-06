@@ -12,9 +12,17 @@ This project aims to provide bots for popular games to automate certain tasks or
   - **Description:** The game presents squares within a larger square, each with a single color. The smaller squares have a slightly different shade of the same color. Clicking on these smaller squares increases your score and reveals new squares with different colors. The game lasts for 60 seconds.
   - **Bot Name:** EyeTestPuppeteerBot
     - **Description:** This bot automates playing the Eye Test game by clicking on squares with different shades to increase the score within the 60-second duration.
-    - **Usage:** To use this bot, ensure you have Node.js installed on your system. Then, install the required dependencies using `npm install puppeteer`. After that, run the provided script using `node eyeTest.js`.
+    - **Usage:** To use this bot, ensure you have Node.js installed on your system. Then, install the required dependencies using `npm install`. After that, run the provided script using `node eyeTesterBot.js`.
     - **Dependencies:**
       - [Puppeteer](https://github.com/puppeteer/puppeteer): Puppeteer is a Node library that provides a high-level API over the Chrome DevTools Protocol, which allows you to control Chrome or Chromium browsers.
+- **autoTapper(with a position to set feature)**
+  - **Description:** The bot will simulate clicking at a predefined position on the screen repeatedly within a specified duration
+  - **Bot Name:** Auto Tapper
+  - **Usage:** To use this bot, ensure you have Node.js installed on your system. Then, install the required dependencies using `npm install`.After that, run the     provided script using `node autoClicker.js`.
+  - **Dependencies:**
+  - [robotjs](https://github.com/octalmage/robotjs)  :robotjs is a Node.js library that provides bindings to control the mouse, keyboard, and screen of your computer.
+  - [keypress](https://github.com/TooTallNate/keypress) : keypress is a Node.js library for listening to keyboard events.
+      
 
 ## Getting Started
 

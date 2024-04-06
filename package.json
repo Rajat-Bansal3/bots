@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^22.5.0"
+    "keypress": "^0.2.1",
+    "puppeteer": "^22.5.0",
+    "robotjs": "^0.6.0"
   }
 }
